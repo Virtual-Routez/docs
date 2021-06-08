@@ -2,10 +2,10 @@
 module.exports = {
   title: 'Virtual Routez',
   tagline: 'Track your supply chain from start to finish',
-  url: 'https://JohanGriesel.github.io',
-  baseUrl: '/virtual-routez-docs/',
-  organizationName: 'JohanGriesel', // Usually your GitHub org/user name.
-  projectName: 'virtual-routez-docs', // Usually your repo name.
+  url: 'https://Virtual-Routez.github.io',
+  baseUrl: '/virtual-routez.github.io/',
+  organizationName: 'Virtual-Routez', // Usually your GitHub org/user name.
+  projectName: 'virtual-routez.github.io', // Usually your repo name.
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
