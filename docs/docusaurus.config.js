@@ -1,7 +1,7 @@
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: 'Virtual Routez',
+  tagline: 'Track your supply chain from start to finish',
   url: 'https://virtual-routez.github.io',
   baseUrl: '/',
   githubHost: 'github.com',
@@ -12,10 +12,10 @@ module.exports = {
   favicon: 'img/favicon.ico',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Virtual Routez',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'VRZ Logo',
+        src: 'img/app_logo.png',
       },
       items: [
         {
@@ -24,9 +24,9 @@ module.exports = {
           position: 'left',
           label: 'Tutorial',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        // {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/virtual-routez/virtual-routez.github.io',
           label: 'GitHub',
           position: 'right',
         },
@@ -39,7 +39,7 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Tutorial',
+              label: 'Documentation',
               to: '/docs/intro',
             },
           ],
@@ -75,7 +75,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Virtual Routez, Built with Divblox.`,
     },
   },
   presets: [
@@ -86,7 +86,7 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/virtual-routez/virtual-routez.github.io',
         },
         blog: {
           showReadingTime: true,
